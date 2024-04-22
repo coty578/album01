@@ -1,0 +1,56 @@
+body {
+    background-image: url("./image/IMG-20240210-WA0017.jpg");
+  }
+  
+  /* Media query for small screens (up to 480px) */
+  @media (max-width: 480px) {
+    body {
+      background-image: url("./image/IMG-20240210-WA0011.jpg"); /* Adjust the URL to your small screen background image */
+    }
+  }
+  
+  /* Media query for medium screens (481px to 1200px) */
+  @media (min-width: 481px) and (max-width: 1200px) {
+    body {
+      background-image: url("./image/IMG-20230513-WA0004.jpg"); /* Adjust the URL to your medium screen background image */
+    }
+  }
+  
+  /* Media query for large screens (1201px to 1600px) */
+  @media (min-width: 1201px) and (max-width: 1600px) {
+    body {
+      background-image: url("./image/DSC_0288.jpg"); /* Adjust the URL to your large screen background image */
+    }
+  }
+  
+  /* Media query for extra-large screens (1601px and above) */
+  @media (min-width: 1601px) {
+    body {
+      background-image: url("./image/IMG-20230513-WA0005.jpg"); /* Adjust the URL to your extra-large screen background image */
+    }
+  }
+  
+  /* Other styles remain unchanged */
+  .poster h1 {
+    background-color: blue;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    border: 2px solid black;
+  }
+  
+  .first {
+    border: 20px solid black; /* Fixed the border style */
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    height: 120px;
+    width: 200px;
+    margin: 10px;
+    color: black;
+  }
+  
+  .second {
+    margin-left: 80px;
+  }
+  
+         

@@ -1,0 +1,21 @@
+.upload-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    border: 2px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+
+.custom-file-upload:hover {
+    background-color: #eaeaea;
+}
+
+#file-upload {
+    display: none;
+}
